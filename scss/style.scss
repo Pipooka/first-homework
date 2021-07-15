@@ -60,9 +60,9 @@ select {
 
 
 .container {
-    width: 1200px;
-    margin: 0px 15px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0px 15px;
 }
 
 
@@ -156,3 +156,41 @@ select {
     font-weight: 700;
     padding: 15px 33px 15px 33px;
 }
+
+
+
+.description {
+    margin-top: 95px;
+    &__columns {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__subtitle {
+        font-size: 14px;
+        font-weight: 700;
+        color: #212121;
+        text-transform: uppercase;
+    }
+    &__text {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #757575;
+    }
+}
+
+.skills {
+    margin-top: 95px;
+    &__title {
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__row  {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
