@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+/* Обнуляющий стиль, конец */
+
+
+.container {
+    width: 1200px;
+    margin: 0px 15px;
+    margin: 0 auto;
+}
+
+
+
+.header {
+    height: 80px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    width: 530px;
+}
+
+.menu {
+    display: flex;
+    width: 294px;
+    justify-content: space-between;
+}
+
+.menu__link {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #212121;
+    &:hover {
+        color: #2196F3;
+        transition: all 0.5s;
+    }
+}
+
+.header__contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 307px;
+}
+
+.header-connection {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #757575;
+    &:hover {
+        color: #2196F3;
+        transition: all 0.5s;
+    }
+}
+
+.main {
+    background-color: #2F303A;
+    height: 600px;
+}
+
+.main__title {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 44px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.main__button {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 5px;
+    &:hover {
+        background-color: orange;
+        transition: all 0.5s;
+    }
+}
+
+.main__link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 33px 15px 33px;
+}
