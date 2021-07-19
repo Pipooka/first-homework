@@ -181,11 +181,6 @@ select {
 
 .skills {
     margin-top: 95px;
-    &__title {
-        font-size: 36px;
-        font-weight: 700;
-        text-align: center;
-    }
     &__row  {
         margin-top: 50px;
         display: flex;
@@ -193,4 +188,41 @@ select {
     }
 }
 
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
 
+.team {
+    margin-top: 190px;
+    margin-bottom: 20px;
+    &__row {
+    margin-top: 50px;
+    display: flex;
+}
+    &__item {
+        max-height: 370px;
+        margin: 0px 15px 0px 15px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 3px 1px rgba(65, 66, 67, 0.2);
+
+    }
+    &__img {
+        padding-bottom: 30px;
+        width: 100%;
+    }
+    &__subtitle {
+        font-size: 16px;
+        font-weight: 500;
+        color: #212121;
+        text-align: center;
+        padding-bottom: 7px;
+    }
+    &__descr {
+        font-size: 16px;
+        color: #757575;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+}
