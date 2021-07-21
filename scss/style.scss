@@ -196,7 +196,6 @@ select {
 
 .team {
     margin-top: 190px;
-    margin-bottom: 20px;
     &__row {
     margin-top: 50px;
     display: flex;
@@ -224,5 +223,40 @@ select {
         color: #757575;
         text-align: center;
         padding-bottom: 25px;
+    }
+}
+
+.footer {
+    margin-top: 95px;
+    background-color: #2F303A;
+    max-height: 252px;
+    &__main {
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    &__logo {
+        margin-bottom: 20px;
+        max-width: 150px;
+    }
+    &__address {
+        font-size: 14px;
+        color: #ffffff;
+        line-height: 24px;
+    }
+    &__email {
+        font-size: 14px;
+        color: #75767D;
+        text-decoration: none;
+        line-height: 24px;
+        max-width: 133px;
+    }
+    &__phone {
+        font-size: 14px;
+        color: #75767D;
+        text-decoration: none;
+        line-height: 24px;
+        max-width: 133px;
     }
 }
